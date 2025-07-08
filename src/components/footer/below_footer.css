@@ -1,0 +1,22 @@
+.outer234{
+    height: 110px;
+    width: 100vw;
+    background-color: #22303f;
+}
+
+.img234{
+    width:453px;
+   
+}
+
+.img234 img{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container234{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}

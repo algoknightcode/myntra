@@ -1,0 +1,17 @@
+.sec_p_img{
+    height: 540px;
+    width: 400px;
+    background: red;
+}
+
+.sec_p_content{
+    width: 580px;
+    margin-left: 30px;
+    color: #757885;
+    font-size: 21px;
+
+}
+
+.sec_p_content p{
+  
+}

@@ -1,0 +1,46 @@
+/* Footer Container */
+.outer1 {
+    width: 100%;
+    background-color: #22303f;
+    padding: 40px 0;
+}
+
+/* Footer Content */
+.content123 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto; /* Centers the content */
+    color: #f9ffff;
+}
+
+/* Individual Sections */
+.content123 .c1,
+.content123 .c2,
+.content123 .c3,
+.content123 .c4 {
+    width: 22%; /* Adjust width to space them evenly */
+}
+
+.content123 h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* List Styling */
+.content123 ul {
+    padding: 0;
+}
+
+.content123 ul li {
+    color: #d1d6dd;
+    line-height: 29px;
+    list-style: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.content123 ul li:hover {
+    color: #ff9800; /* Changes text color on hover */
+}

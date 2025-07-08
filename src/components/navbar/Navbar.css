@@ -1,0 +1,74 @@
+.main_nav{
+    width:100wb;
+    height: 72px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.last_icons {
+    display: flex;
+    gap: 20px; 
+    color: #00000000;
+}
+
+.icon_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px; 
+    color: #333; 
+}
+
+.icon_item img {
+    width: 24px; 
+    height: 24px;
+}
+
+.search-icon {
+    height: 16px;
+}
+
+.search-bar{
+    background-color: #f5f5f5;
+    border-radius: 8px;
+    height: 40px;
+    width: 600px;
+    padding: 0px 16px;
+    display: flex;
+    align-items: center;
+    gap: 8px
+}
+
+.search-bar input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    
+}
+
+.myntra-icon{
+    fill:#fbfbfb;
+    
+}
+
+.nav_categories {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 15px;
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+
+.badge {
+    position: relative;
+    top: -6px;
+    font-size: 9px;
+    color:#ff547c;
+}

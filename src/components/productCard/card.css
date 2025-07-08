@@ -1,0 +1,90 @@
+.outer_card{
+    height: 356px;
+    width: 210px;
+    background-color: #ffffff;
+    border-radius: 0 0 5px 0;
+    position: relative;
+}
+
+.image img{
+    width: 210px;
+    height: 280px;
+    object-fit:cover;
+}
+
+.heading{
+    font-size:14px;
+    font-weight: 600;
+    color: #292d39;
+    
+}
+
+.desc{
+    color:#545663;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.price{
+    display: flex;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+.new_price{
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.old_price{
+    font-size: 10px;
+    margin-top: 3.5px;
+    text-decoration: line-through;
+    color: #5f5f5f;
+    font-weight: 40;
+
+}
+
+.discount{
+    font-size: 11px;
+    margin-top: 2px;
+    color: #ee9569
+}
+
+.content{
+    margin-left: 9px;
+}
+
+.rating {
+    position: absolute;
+    top:240px;
+    left: 10px;
+    
+}
+
+
+.rating-content {
+    background-color: #ffffffe6;
+    padding: 4px 8px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    font-weight: 600;
+    color: #292d39;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.rating-value {
+    color: #292929; /* Green for the star rating */
+}
+
+.rating-count {
+    color: #545663; /* Gray for count */
+}
+
+.rating-star{
+    color: #159590;
+}

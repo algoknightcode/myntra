@@ -1,0 +1,21 @@
+.feature{
+    height:51px;
+    width:100vw;
+    background-color: #212b35;
+    text-align: center;
+    color: #f9ffff;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.feature:hover{
+    background-color: #364759;
+}
+
+.feature a{
+    color: #f9ffff;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
